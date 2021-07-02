@@ -21,7 +21,7 @@ run tests against different test data.
 6. Loggers: Log4j
 7. Reporting: Default Cucumber HTML Reporting
 8. Browser Tested: Chrome (v 90.0.4430.212 (Official Build) (x86_64))
-9. Platform Used: macOS Catalina (v 10.15.7)
+9. Platform Used: macOS Big Sur (v11.4)
 
 
 **Steps to run the Tests:**
