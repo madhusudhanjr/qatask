@@ -26,7 +26,7 @@ run tests against different test data.
 
 **Steps to run the Tests:**
 
-Pre-requisites: Platform specific dependencies like Chrome browser, chrome driver executable etc. 
+Pre-requisites: Platform specific dependencies like Chrome browser needs to be installed and the required chrome driver executable needs to be updated (path mentioned below). Chromedriver executable uploaded in the project would change the file type while downloading as its an executable file. In order to run the tests successfully Chromedriver executable needs to be replaced. Chromedriver executable can be downloaded from the link https://chromedriver.chromium.org/downloads.
 
 Import as existing Maven project to any IDE like (Eclipse/InteliJ) and clean and build the project to download the project dependencies set in **petclinic/pom.xml**
 Run the project as JUnit Test. Tests starts executing on the Chrome browser. 
@@ -44,6 +44,8 @@ Feature files:
 
 Config file - **/petclinic/src/test/resources/config.properties**
 
+Chrome Driver executable - **/petclinic/src/test/resources/chromedriver**
+
 Test execution reports path - **target/cucumber_test_report/index.html**
 
 Sample test execution report - **/petclinic/SampleCucumberTestsReport.html**
@@ -51,4 +53,5 @@ Sample test execution report - **/petclinic/SampleCucumberTestsReport.html**
 
 **Testing Notes:**
 
-The tests were run on MacBook Pro with macOS Big Sur (v11.4) on Chrome browser (v91.0.4472.114).
+The tests were run on MacBook Pro with macOS Big Sur (v11.4) on Chrome browser (v91.0.4472.114). 
+
